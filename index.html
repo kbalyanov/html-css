@@ -1,52 +1,309 @@
 <!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <title>Домашка</title>
-        <link rel="shortcut icon" href="img/favicon.ico">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html">Главная</a>
-                <a href="contacts.html">Контакты</a>
-                <a href="about.html">О Нас</a>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Organisation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="main-nav">
+                <ul class="main_row">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contacts.html">contact</a></li>
+                </ul>
             </nav>
-            
-        </header>
-        <main>
-            <section>
-                <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
-                     Ipsum non nisi, a, atque eos quidem alias repellendus facere placeat <br>
-                      recusandae dolorem sequi officia, repudiandae beatae quibusdam eveniet <br> 
-                      impedit at pariatur!</p>
-                      <a href="/about.html#panda1"><img src="img/panda-1.jpg" alt=""></a>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="company">
+            <div class="container">
+                <div class="company_row">
+                    <div class="company_info">
+                        <h1>Panda organisation</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates,
+                            Lorem ipsum dolor sit repellat deserunt perspiciatis.
+                        </p>
+                        <button class="btn">Contact Us</button>
+                    </div>
+
+                    <div class="company_visual">
+                        <a href="#"><i class="sprite sprite-Vedio-Icon"></i></a>
+                        <img src="images/panda.jpg" alt="video unavailable">
+                    </div>
                 </div>
-            </section>
-            <section>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                         Ducimus sequi quo adipisci, aliquid libero ex reprehenderit, quas <br>
-                          inventore iste exercitationem repellat nam <br>
-                         illum ipsum consequatur praesentium totam. Fuga, eveniet ipsa?                        
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <div class="service_row">
+                    <div class="services_info">
+                        <h2>Do you know we can provide for you?</h2>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing , praesentium?
+                            Quas dicta alias odio vel hic temporibus
+                            Quam ab, illo omnis a impedit
+                        </p>
+
+                        <button class="btn">Learn More</button>
+                    </div>
+                    <ul class="services_list">
+
+                        <li class="services_item">
+
+                            <i class="sprite sprite-Settings"></i>
+
+                            <h3>Management</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                                Obcaecati suscipit magnam a numquam maiores aspernatur.
+                                Sunt, error! Eligendi sit consectetur sint vel!
+                            </p>
+                        </li>
+
+                        <li class="services_item">
+
+                            <i class="sprite sprite-Pencil"></i>
+
+                            <h3>UI/UX Design</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, quae. <br>
+                                Repellendus quam, nam pariatur recusandae adipisci inventore sapiente! <br>
+                                Culpa repellat dicta cum nulla incidunt architecto ut, voluptas quae. <br></p>
+                        </li>
+
+                        <li class="services_item">
+
+                            <i class="sprite sprite-Diamond"></i>
+
+                            <h3>Logo/Branding</h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br>
+                                Delectus cum tempora quia nostrum sequi dolorum. <br>
+                                Et illum obcaecati quasi maiores repellendus eum. <br></p>
+                        </li>
+
+                        <li class="services_item">
+
+                            <i class="sprite sprite-Truck-2"></i>
+
+                            <h3>Animation</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing. <br>
+                                Expedita, fugit. Mollitia est enim voluptate ea. <br>
+                                Tempore, et earum dicta velit voluptas possimus! <br></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="product_info">
+                    <h2>Feature Products</h2>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        Placeat voluptate eveniet aliquid amet ipsum fuga.
+                        Deserunt
                     </p>
-                    <a href="/about.html#panda2"><img src="img/panda-2.jpg" alt="" ></a>
+                    <div class="line"></div>
                 </div>
-            </section>
-            <section>
-                <div>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit <br>
-                         iure veritatis officiis fuga asperiores illo consectetur, minus velit, <br>
-                          quaerat commodi, laudantium optio ratione eligendi <br>
-                         saepe quia necessitatibus voluptatum perspiciatis nisi.
+
+
+                <ul class="products-filters">
+                    <li class="product-filter_items"><a href="#">all</a></li>
+                    <li class="product-filter_items"><a href="#">print template</a></li>
+                    <li class="product-filter_items"><a href="#">web template</a></li>
+                    <li class="product-filter_items"><a href="#">user interface</a></li>
+                    <li class="product-filter_items"><a href="#">mock-up</a></li>
+                </ul>
+
+                <div class="product_list">
+                    <div class="product_item">
+                        <a href="#" class="product_link"><img src="images/panda-1.jpg" alt="подушка панда"></a>
+                    </div>
+                    <div class="product_item">
+                        <a href="#" class="product_link"><img src="images/panda-2.jpg" alt="картина панда"></a>
+                    </div>
+                    <div class="product_item">
+                        <a href="#" class="product_link"><img src="images/panda-3.jpg" alt="чехолпанда"></a>
+                    </div>
+                    <div class="product_item">
+                        <a href="#" class="product_link"><img src="images/panda-4.jpg" alt="фонарьпанда"></a>
+                    </div>
+                    <div class="product_item">
+                        <a href="#" class="product_link"><img src="images/panda-2.jpg" alt="чехолпанда1"></a>
+                    </div>
+                    <div class="product_item">
+                        <a href="#" class="product_link"><img src="images/panda-4.jpg" alt="фанарьпанда1"></a>
+                    </div>
+                    <div class="product_item">
+                        <a href="#" class="product_link"><img src="images/panda-1.jpg" alt="подушкапанда1"></a>
+                    </div>
+                    <div class="product_item">
+                        <a href="#" class="product_link"><img src="images/panda-3.jpg" alt="картинапанда1"></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="team">
+            <div class="container">
+                <div class="team_p">
+                    <h2>Meet our Team</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.
+                        Expedita fugiat illum quod? Aspernatur, nobis!
+                        Voluptatibus provident tempore ea ducimus odio.
                     </p>
-                    <a href="/about.html#panda3"><img src="img/panda-3.jpg" alt=""></a>
+
                 </div>
-            </section>
-        </main>
-    </body>
+                <div class="team_row">
+                    <div class="member_photo">
+
+
+                        <img src="images/kirill.jpg" alt="Mark Waugh">
+
+                    </div>
+
+
+                    <div class="stuff">
+                        <div class="stuff_info">
+                            <h3>Mark Waugh</h3>
+
+                            <p>Lorem ipsum dolor sit amet.
+                                Illo voluptates quibusdam rem officiis.
+                                Ut iure cumque beatae ea!
+                            </p>
+
+                            <a href="https:www.facebook.com">Facebook</a>
+                            <a href="https:www.dribble.com">Dribble</a>
+                            <a href="https:www.behance.com">Behance</a>
+                            <a href="https:www.twitter.com">Twitter</a>
+                        </div>
+                        <div class="stuff_photo">
+                            <div class="stuff_profile">
+                                <a href="#"><img src="images/kirill2.jpg" alt="Mark Wough"></a>
+                            </div>
+                            <div class="stuff_profile">
+                                <a href="#"><img src="images/alexander.jpg" alt="Pedro Pedrovich"></a>
+                            </div>
+                            <div class="stuff_profile">
+                                <a href="#"><img src="images/polina_komolova.jpg" alt="Iron man"></a>
+                            </div>
+                            <div class="stuff_profile">
+                                <a href="#"><img src="images/alexander.jpg" alt="Ivanka Trump"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="delivery">
+            <div class="container">
+                <div class="delivery_p">
+
+                    <h2>Design Tips, Tricks and freebies. Delivered weekly</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+
+                <form action="type" class="delivery_row">
+                    <input type="email" name="contact" placeholder="Email Address...">
+
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+
+        </section>
+
+
+        <section class="contacts">
+            <div class="container">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. vyigviy
+                        Modi rem nesciunt minus minima magnam.hcjkv lcvyugv
+                        Aliquam veritatis eos nulla ad maxime! Lorem ipsum dolor sit
+                         amet, consectetur adipisicing elit. Ut, harum.
+                    </p>
+                </div>
+                <div class="contacts_row">
+                    <div class="contact_form">
+                       
+
+
+                        <form action="#" class="contact_field">
+                            <div class="form_field">
+                                <input type="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="form_field">
+                                <input type="email" name="email" placeholder="Your Email">
+                            </div>
+                            <div class="form_field form_field-full">
+                                <input type="text" name="text" placeholder="Type your message">
+                            </div>
+                            <div class=" form_field-btn">
+                                <button class="btn">Send Message</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+                    <div class=contact_box>
+
+                        <h3>Contact info</h3>
+
+                        <p>Lorem ipsum dolor sit.Autem tenetur aliquam velit. 
+                            <p>kbalyanov@yahoo.com</p>
+                            (+88)38572734032
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_row">
+                <div class="footer_p">
+                    <p>Copyright@ Junaed 2016, All rights reserved.</p>
+                </div>
+
+
+                <ul class="social_icon">
+                    <li class="twiter"><a href="https:twiter.com" class="sprite sprite-Twitter"></a></li>
+                    <li class="indeed"><a href="https:indeed.com" class="sprite sprite-LinkedIn"></a></li>
+                    <li class="google"><a href="https:google.com" class="sprite sprite-Google"></a></li>
+                    <li class="facebook"><a href="https:facebook.com" class="sprite sprite-Facebook"></a></li>
+                </ul>
+
+
+            </div>
+        </div>
+    </footer>
+</body>
 
 </html>

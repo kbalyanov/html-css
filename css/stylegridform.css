@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    padding: 0 ;
+    margin: 0;
+}
+
+a {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.piter {
+    justify-content: center;
+
+}
+.pic {
+    justify-content: center;
+}
