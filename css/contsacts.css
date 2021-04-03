@@ -1,0 +1,26 @@
+header {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+ nav {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    font-size: large;
+    color: antiquewhite;
+}

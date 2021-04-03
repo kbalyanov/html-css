@@ -4,20 +4,34 @@
         <meta charset="UTF-8">
         <title>Домашка</title>
         <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylegrid.css">
+        <link rel="stylesheet" href="css/contsacts.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="index.html">Главная</a>
-                <a href="contacts.html">Контакты</a>
-                <a href="about.html">О Нас</a>
-            </nav>
+        <header class="header">
+            <div class="container">
+                <nav class="main-nav">
+                    <ul class="main_row">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="items.html">items</a></li>
+                        <li><a href="contacts.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+    
         <main>
+            <div class="flex-row">
+                <img class="col-3" src="images/polina_komolova.jpg" alt="polina">
+                <p class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora doloremque nihil id illum expedita consequatur similique! Perspiciatis obcaecati quia aspernatur!</p>
+                 <button class="col-2" type="button">call</button>
+            </div>
             <div>
                 <audio controls src="audio/file_example_MP3_700KB.mp3">audio</audio>
             </div>
-            <video width="600" height="400" controls src="video/IMG_0708 (1).MOV"></video>
+            
             <table>
                 <tr>
                     <th>Company</th>

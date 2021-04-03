@@ -503,6 +503,7 @@ text-transform: uppercase;
 .footer {
     background-color: #333333;
     margin-top: 40px;
+    padding: 20px;
 }
 .footer p {
     color: white;
