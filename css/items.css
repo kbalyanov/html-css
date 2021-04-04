@@ -1,0 +1,23 @@
+.pics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    gap: 2em;
+    margin-top: 8em;
+}
+.panda_links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    gap: 2em;
+    margin-top: 5em;
+}
+
+.pandas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 2em;
+    font-size: 40px;
+}

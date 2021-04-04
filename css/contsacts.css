@@ -24,3 +24,18 @@ a {
     font-size: large;
     color: antiquewhite;
 }
+main {
+    margin: 0;
+    display: grid;
+    grid-template:
+    "main main right"
+    /1fr 1fr minmax(15%, 20%)
+}
+main {
+    display: grid;
+    grid-template-areas:
+    "main main main";
+    grid-template-columns: 1fr minmax(500px, 1200px) 1fr;
+    grid-template-rows: 80px auto 40vh 100px;
+    margin-top: 110px;
+}
