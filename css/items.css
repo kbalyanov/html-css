@@ -1,9 +1,15 @@
 .pics {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto );
     gap: 2em;
-    margin-top: 8em;
+    margin-top: 4em;
+    padding: 50px;
+    text-align: center;
+}
+.pics a {
+    text-decoration: none;
+    font-size: 2em;
 }
 .panda_links {
     display: grid;
@@ -11,6 +17,7 @@
     grid-auto-rows: minmax(200px, auto);
     gap: 2em;
     margin-top: 5em;
+    padding: 50px;
 }
 
 .pandas {
@@ -20,4 +27,15 @@
     background-color: antiquewhite;
     padding: 2em;
     font-size: 40px;
+}
+.pandas a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+.panda_links img {
+    /* padding: 40px; */
+}
+.panda_links p {
+    text-align: center;
+    font-size: 20px;
 }

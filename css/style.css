@@ -535,6 +535,9 @@ text-transform: uppercase;
 /* Планшеты  */
 
 @media (max-width:1279px) {
+    body {
+        display: flex;
+    }
 .company_row {
     display: flex;
 }
