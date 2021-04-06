@@ -67,10 +67,17 @@ main {
 }
 .contact button {
     margin-top: 3em;
+    font-size: 20px;
 }
+
 .info {
-    text-align: center;
+    background-color: lightpink;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
 }
+
 .info p {
     font-size: 25px;
     padding-left: 70px;
@@ -79,4 +86,34 @@ main {
 table {
     text-align: center;
     font-size: 25px;
+}
+@media screen and (min-width:600px) and (max-width:767px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20rem;
+    }
+    .contact {
+        padding-bottom: 2rem;
+    }
+    .info div {
+        padding-bottom: 2rem;
+    }
+    .header {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .main_row {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact {
+        padding-bottom: 2rem;
+    }
+    .info div {
+        padding-bottom: 2rem;
+    }
 }

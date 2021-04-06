@@ -1,0 +1,42 @@
+@media (max-width:1279px) { 
+    body {
+        display: flex;
+    }
+.company_row {
+    display: flex;
+}
+} 
+
+/* Мобилки */
+
+ @media (max-width:767px) {
+    .container {
+
+    }
+     .company_row { 
+        display: block;
+    }
+    .company_info {
+        width: 100%;
+        padding: 0 16px;
+    }
+    .company_info h1 {
+        font-size: 40px;
+    }
+    .company_visual {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .service_row {
+        display: block;
+        padding: 0 16px;
+    }
+
+    .services_list {
+        width: 100%;
+    }
+    .services_item {
+        width: 100%;
+    }
+} 
